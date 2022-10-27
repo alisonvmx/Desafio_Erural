@@ -1,0 +1,137 @@
+body{
+    background-image: url("/img/backgroudimg.jpg");
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.headerreprod{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-site{
+    height: 80px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.logo-sitereprod{
+    height: 80px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.nav{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+   justify-content: end;
+}
+
+.main-btn{
+    display: flex;
+    align-items:flex-end;
+    padding: 0 5rem;
+    
+    
+}
+
+.sobre-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;  
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.search-input{
+    width: 100%;
+    font-size: inherit;
+    padding: 1rem;
+    border: 1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1 px solid white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+
+.conteiner{
+width: 100%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+border-radius: 10px;
+}
+
+.titulo-conteiner{
+color: aliceblue;
+}
+
+.criarSala-btn{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.logotube{
+    height: 90%;
+    width: 100%;
+}
+
+.conteiner_video{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+.convite{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.input_text{
+    display: block;
+    width: 270px;
+}    
+
+.link_convite{
+    display: block;
+    color: white;
+}
+
+

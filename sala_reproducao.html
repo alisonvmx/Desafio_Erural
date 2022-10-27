@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Hires me</title>
+</head>
+
+<body>
+    <header class="headerreprod">
+        <a href="#">
+          <img class="logo-sitereprod" src="/img/hires.png" alt="logo site">
+        </a>
+    
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Digite a Url do video  desejado:" aria-label="Search" id="search"/>
+            <button class="search-btn" type="button" id="buscar">
+            <img src="/img/search.png">
+           </button>
+           <button class="main-btnreprod" type="button" id="mainrpd" onclick="document.getElementById('frame').scr=(aspas+link+aspas)">
+           <img class="logo-main" src="/img/home_circle_icon_137496.png">
+           </button>
+        </form> 
+
+      </header>
+
+      <div class="conteiner_video" id="video">
+        <iframe id="frame" width="560" height="315" src=https://www.youtube.com/embed/Swh0Yt2s5Zs title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>                  
+      
+        <div class="convite">
+          <h3 class="link_convite">link para convite de sala:</h3>
+          <input class="input_text" id="texto" type="text" value="http://127.0.0.1:5500/sala_reproducao.html">
+          <button class="copiar" id="copyy" type="button">Copiar</button>
+        </div>
+
+    <script type="text/javascript" src="sala.js"></script>
+</body>
+
+</html>
